@@ -1,4 +1,3 @@
-# githubrepo
 package com.github.chrishantha.sample.hotmethods;
 
 import com.beust.jcommander.Parameter;
