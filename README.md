@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.chrishantha.sample.hotmethods;
+package com.github.chrishantha.sample.med;
 
 import com.beust.jcommander.Parameter;
 import com.github.chrishantha.sample.base.SampleApplication;
@@ -22,7 +22,7 @@ import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Random;
 
-public class HotMethodsApplication implements SampleApplication {
+public class med implements SampleApplication {
 
     @Parameter(names = "--count", description = "Random Numbers Count")
     private int randomNumbersCount = 1000000;
@@ -63,7 +63,7 @@ public class HotMethodsApplication implements SampleApplication {
 
     @Override
     public String toString() {
-        return "HotMethodsApplication{" +
+        return "med{" +
                 "randomNumbersCount=" + randomNumbersCount +
                 ", max=" + max +
                 '}';
